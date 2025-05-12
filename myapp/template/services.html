@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- Navbar -->
+    {% include 'navbar.html' %}
+
+    <!-- Hero Section for Services -->
+    <section class="relative bg-gradient-to-r from-blue-500 to-indigo-600 py-24 px-4 text-center text-white">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <h1 class="text-5xl font-bold mb-4 z-10 relative">Our Core Services</h1>
+        <p class="text-lg max-w-2xl mx-auto mb-6 z-10 relative">
+            Our comprehensive Employee Management System offers innovative tools to optimize every aspect of your workforce management. Explore the services that will help you manage your employees effortlessly.
+        </p>
+        <a href="/services" class="inline-block mt-6 px-8 py-3 bg-blue-800 rounded-full text-lg font-semibold hover:bg-blue-700 transition z-10 relative">
+            Explore Services
+        </a>
+    </section>
+
+    <!-- Feature Highlights -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-semibold text-blue-800 mb-10">Why Choose Our Services?</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="bg-blue-50 p-6 rounded-lg shadow-lg hover:shadow-2xl transition">
+                    <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="HR" class="w-20 h-20 mx-auto mb-6">
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Streamlined Employee Records</h3>
+                    <p>Manage employee records with ease. Keep track of personal details, roles, and performance metrics in one secure platform.</p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg shadow-lg hover:shadow-2xl transition">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" alt="Attendance" class="w-20 h-20 mx-auto mb-6">
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Efficient Attendance Management</h3>
+                    <p>Automate attendance tracking and gain insights into employee punctuality, leaves, and working hours.</p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg shadow-lg hover:shadow-2xl transition">
+                    <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Performance" class="w-20 h-20 mx-auto mb-6">
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Real-Time Performance Analytics</h3>
+                    <p>Assess employee performance with real-time data, generate reports, and provide feedback based on objective metrics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Details with Cards -->
+    <section class="py-16 bg-blue-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-semibold text-center text-blue-800 mb-10">Our Detailed Services</h2>
+            <div class="grid lg:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Employee Onboarding</h3>
+                    <p>Streamline your employee onboarding process with automated tasks, document management, and personalized workflows to ensure smooth integration into your organization.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Leave & Attendance Tracker</h3>
+                    <p>Effortlessly manage employee leaves, attendance, and track working hours. Our system allows you to approve or reject leave requests and generate detailed reports.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Payroll Management</h3>
+                    <p>Generate payroll with ease, including tax deductions, bonuses, and compensation. Provide employees with secure access to their salary information.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Employee Feedback & Surveys</h3>
+                    <p>Collect real-time feedback from employees through surveys, assessments, and performance reviews. This data helps to improve engagement and productivity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+

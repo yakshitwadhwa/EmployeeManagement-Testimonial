@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | Employee Management</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  {% include 'navbar.html' %}
+
+  <!-- Hero Section -->
+  <section class="text-center py-16 px-4 bg-white shadow-md">
+    <h1 class="text-4xl font-bold text-blue-700 mb-4">About Employee Management System</h1>
+   <p class="text-lg max-w-3xl mx-auto text-gray-600">
+      Our system is crafted to simplify employee handling, streamline daily HR tasks, and enhance team performance through data-driven insights.
+It empowers organizations to maintain accurate employee records, automate routine processes, and ensure transparency across all departments.
+With an intuitive interface and powerful features, our platform reduces manual workload, minimizes errors, and supports smart decision-making.
+Whether you're a startup or an enterprise, our solution scales with your needs and helps build a productive, engaged workforce.
+   </p>
+
+    
+  </section>
+
+  <!-- Services Section -->
+  <section class="py-16 bg-blue-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-semibold text-center text-blue-800 mb-12">What We Offer</h2>
+      <div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-lg p-6 shadow hover:shadow-lg transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" class="w-16 h-16 mx-auto mb-4" alt="Employee Records">
+          <h3 class="text-xl font-semibold mb-2 text-center">Employee Records</h3>
+          <p class="text-gray-600 text-center">
+            Manage detailed employee profiles, roles, joining dates, and contact details seamlessly.
+          </p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white rounded-lg p-6 shadow hover:shadow-lg transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" class="w-16 h-16 mx-auto mb-4" alt="Attendance">
+          <h3 class="text-xl font-semibold mb-2 text-center">Attendance Tracking</h3>
+          <p class="text-gray-600 text-center">
+            Keep tabs on attendance, leaves, overtime, and work hours with real-time tracking.
+          </p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white rounded-lg p-6 shadow hover:shadow-lg transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135823.png" class="w-16 h-16 mx-auto mb-4" alt="Payroll">
+          <h3 class="text-xl font-semibold mb-2 text-center">Payroll Management</h3>
+          <p class="text-gray-600 text-center">
+            Automate salary calculations, payslip generation, and tax deductions without errors.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-6">
+    <p>&copy; 2025 Employee Management System. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
